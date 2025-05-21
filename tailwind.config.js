@@ -17,6 +17,24 @@ module.exports = {
       }
     },
     extend: {
+       colors: {
+        purple: {
+          400: '#a855f7',
+          500: '#8b5cf6',
+          // 其他紫色调
+        },
+        pink: {
+          400: '#ec4899',
+          500: '#db2777',
+          // 其他粉色调
+        },
+      },
+      backdropBlur: {
+        xs: '2px',
+      },
+      boxShadow: {
+        'purple-glow': '0 0 15px rgba(168, 85, 247, 0.5)',
+      },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans]
       },
