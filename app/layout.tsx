@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import { Toaster } from '@/components/ui/Toasts/toaster';
-import { PropsWithChildren, Suspense } from 'react';
+import { PropsWithChildren } from 'react';
 import { getURL } from '@/utils/helpers';
 import 'styles/main.css';
 
@@ -24,9 +23,6 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <main id="skip" className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]">
           {children}
         </main>
-        <Suspense>
-          <Toaster />
-        </Suspense>
       </body>
     </html>
   );

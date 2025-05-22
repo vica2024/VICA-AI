@@ -16,7 +16,7 @@ import {
 import { CustomSelect } from "./CustomSelect";
 import ImageUpload from "./ImageUpload";
 import { AspectRatioSelector } from "./AspectRatioSelector";
-import  OpenEdit  from "../../icons/OpenEdit";
+import { Edit2Icon } from "lucide-react";
 
 
 const ImageToVideoFrom: React.FC = function () {
@@ -53,7 +53,7 @@ const ImageToVideoFrom: React.FC = function () {
                         </div>
                          <div className="absolute right-3 bottom-3 text-xs text-purple-400">
                             <Button className="text-xs text-gray-400 bg-black/10">
-                                <OpenEdit />
+                                <Edit2Icon />
                             </Button>
                         </div>
                     </div>

@@ -31,7 +31,7 @@ export default function Sidebar() {
                   >
                     {link.icon}
                     <span>{link.label}</span>
-                    {link.isHot && (
+                    {(
                       <span className="ml-2 inline-flex items-center rounded bg-red-500/20 px-1.5 py-0.5 text-xs font-medium text-red-500">
                         Hot
                       </span>
